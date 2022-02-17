@@ -1,1 +1,19 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+    <!--My first bug report-->
+    bug id="Bug 01"
+    status="New"
+    title="Sorting by price from the lowest on the 'BEST SELLERS' tab is not performed"
+    priority="3"
+    severity="3"
+    description="Sorting by price from the lowest on the 'BEST SELLERS' tab is not performed"
+    <steps>
+     1. Open the website http://automationpractice.com/index.php
+     2. Click on the magnifying glass next to the search bar
+     3. Scroll through the page and click the 'all best sellers' button located under TOP SELLERS
+     4. Sort by 'Price: lowest first'
+    </steps>
+    expected results= "Products are sorted from cheap to expensive"
+    actual results= "Products are sorted from expensive to cheap"
+    evidences= "bug_image.png"  
+</bug_report>
